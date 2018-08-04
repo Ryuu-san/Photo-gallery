@@ -1,0 +1,38 @@
+#img_container {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    border: 1px solid grey;
+}
+
+#field {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+}
+
+#button_add,
+#button_del {
+    outline: none;
+    cursor: pointer;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+#button_add:hover,
+#button_del:hover,
+#field:hover {
+    background-color: #e6e6e6;
+}
+
+#button_add:active,
+#button_del:active {
+    background: linear-gradient(#e6e6e6);
+    box-shadow: 0 0 1px #00000080 inset, 0 2px 3px #00000080 inset, 0 1px 1px #ffffff1a;
+    background-color: #e2dede;
+}
