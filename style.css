@@ -1,5 +1,16 @@
+img {
+    width: auto;
+    height: auto;
+}
+
+tr {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
 #img_container {
-    width: 100%;
+    width: auto;
     height: 100%;
     padding: 0px;
     margin: 0px;
